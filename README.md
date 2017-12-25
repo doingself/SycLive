@@ -1,9 +1,10 @@
 # SycLive
 
+一个简单的直播 rtmp
 
 ## IOS 端
 
-![image](https://github.com/doingself/SycLive/blob/master/SycLive/images/photo2.jpeg)
+![image](https://github.com/doingself/SycLive/blob/master/images/photo2.jpeg)
 
 ### LFLiveKit
 
@@ -35,7 +36,7 @@ func stopLive() -> Void {
 
 ### IJKFramework
 
-![image](https://github.com/doingself/SycLive/blob/master/SycLive/images/image1.jpg)
+![image](https://github.com/doingself/SycLive/blob/master/images/image1.jpg)
 
 ```
 let urlStr = "rtmp://192.168.1.113:1935/rtmplive/test"
@@ -143,7 +144,7 @@ rtmp {
 
 + 推流 桌面(桌面分享)
  `ffmpeg -f avfoundation -i "1" -vcodec libx264 -preset ultrafast -acodec libfaac -f flv rtmp://localhost:1935/rtmplive/test`
- ![image](https://github.com/doingself/SycLive/blob/master/SycLive/images/photo1.jpeg)
+ ![image](https://github.com/doingself/SycLive/blob/master/images/photo1.jpeg)
 
 + 推流 桌面+麦克风
  `ffmpeg -f avfoundation -i "1:0" -vcodec libx264 -preset ultrafast -acodec libmp3lame -ar 44100 -ac 1 -f flv rtmp://localhost:1935/rtmplive/test`
