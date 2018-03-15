@@ -155,7 +155,14 @@ rtmp {
 ### 使用 VLC 拉流播放
  `Open Network` 打开 `rtmp://localhost:1935/rtmplive/test`
 
-### 参考
+# Requirements
+
++ Swift 4
++ iOS 10+
++ Xcode 9+
++ macOS Sierra 10.12.6
+
+### 鸣谢
 
 + [cocoachina iOS直播实用篇(手把手教)](http://www.cocoachina.com/ios/20161111/18050.html)
 + [cnglogs ffmpeg 常用命令](https://www.cnblogs.com/frost-yen/p/5848781.html)
