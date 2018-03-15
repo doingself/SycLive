@@ -158,7 +158,7 @@ rtmp {
 # Requirements
 
 + Swift 4
-+ iOS 10+
++ iOS 8+
 + Xcode 9+
 + macOS Sierra 10.12.6
 
